@@ -71,3 +71,4 @@ resource "aws_instance" "ec2_instance" {
         vpc_security_group_ids = [aws_security_group.security_group.id]
         associate_public_ip_address = true
 }
+# Test: dummy line to trigger PR
